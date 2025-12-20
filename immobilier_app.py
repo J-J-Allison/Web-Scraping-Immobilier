@@ -744,21 +744,22 @@ def main():
     
     st.markdown("### 🔎 Étapes de géocodage")
     
-    st.markdown("""
-    Afin de produire les cartes interactives, un travail préalable de **géocodage** a été réalisé
-    pour associer chaque zone géographique des annonces à des coordonnées latitude / longitude.
-    Ces coordonnées sont ensuite intégrées dans des fichiers **GeoJSON**, utilisés pour
-    l’affichage cartographique.
-    """)
+    geo_tab1, geo_tab2 = st.tabs([
+        "🇫🇷 Géocodage par département",
+        "🗼 Géocodage des arrondissements de Paris"
+    ])
     
-    st.markdown("#### 1️⃣ Géocodage des départements")
+    # ─── TAB 1: GÉOCODAGE DÉPARTEMENTS ───
+    with geo_tab1:
+        st.markdown("""
+        Afin de produire les cartes interactives, un travail préalable de **géocodage** a été réalisé
+        pour associer chaque département à des coordonnées latitude / longitude.
+        Les départements ont été géocodés à partir des **CSV issus du scraping**
+        (EtreProprio & SeLoger).
+        """)
     
-    st.markdown("""
-    Les départements ont été géocodés à partir des CSV issus du scraping (EtreProprio & SeLoger).  
-    """)
-    
-    st.code(
-    """Géocodage des départements :
+        st.code(
+        """Géocodage des départements :
     ✅ Géocodé: Ain -> (46.0652385, 5.2847717)
     ✅ Géocodé: Aisne -> (49.4532855, 3.606899)
     ✅ Géocodé: Allier -> (46.3674641, 3.1638828)
@@ -770,17 +771,20 @@ def main():
     ✅ Géocodé: Ariège -> (42.9455368, 1.4065544)
     ✅ Géocodé: Aube -> (48.3201921, 4.1905397)
     """,
-    language="text"
-    )
+        language="text"
+        )
     
-    st.markdown("#### 2️⃣ Géocodage des arrondissements de Paris")
+        st.markdown("Les coordonnées sont ensuite consolidées dans des fichiers **GeoJSON**.")
     
-    st.markdown("""
-    Pour Paris, nous avons utilisé les codes postaux pour avoir les localisations des arrondissements
-    """)
+    # ─── TAB 2: GÉOCODAGE PARIS ───
+    with geo_tab2:
+        st.markdown("""
+        Pour Paris, un géocodage plus fin a été réalisé à partir des
+        **codes postaux**, chaque code correspondant à un arrondissement.
+        """)
     
-    st.code(
-    """Nombre total d'annonces à Paris (filtrées) : 31167
+        st.code(
+        """Nombre total d'annonces à Paris (filtrées) : 31167
     Nombre de Codes Postaux UNIQUES (Arrondissements) à géocoder : 23
     ✅ Réussi: CP 75000 -> (48.8522751, 2.3967596)
     ✅ Réussi: CP 75001 -> (48.8618779, 2.3374139)
@@ -793,12 +797,10 @@ def main():
     ✅ Réussi: CP 75008 -> (48.8733792, 2.3111527)
     ✅ Réussi: CP 75009 -> (48.8770673, 2.3379172)
     """,
-    language="text"
-    )
+        language="text"
+        )
     
-    st.markdown("""
-    Les coordonnées sont ensuite consolidé dans des fichiers **GeoJSON**.
-    """)
+        st.markdown("Les coordonnées sont ensuite consolidées dans des fichiers **GeoJSON**.")
 
     
     st.markdown("""
