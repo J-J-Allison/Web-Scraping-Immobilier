@@ -808,6 +808,7 @@ def main():
         <p style="margin: 0; color: #c9a227 !important;">
             <strong>Légende :</strong> La couleur représente le prix moyen au m², 
             la taille des cercles indique le nombre d'annonces.<br>
+            <strong>💡 Astuce :</strong> Utilisez Ctrl + molette pour zoomer, ou cliquez en dehors de la carte pour la quitter.
         </p>
     </div>
     """, unsafe_allow_html=True)
