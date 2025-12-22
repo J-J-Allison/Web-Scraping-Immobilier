@@ -742,6 +742,67 @@ def main():
     
     st.markdown("## 🗺️ Cartographie des prix")
     
+    st.markdown("### 🔎 Étapes de géocodage")
+    
+    geo_tab1, geo_tab2 = st.tabs([
+        "🇫🇷 Géocodage par département",
+        "🗼 Géocodage des arrondissements de Paris"
+    ])
+    
+    # ─── TAB 1: GÉOCODAGE DÉPARTEMENTS ───
+    with geo_tab1:
+        st.markdown("""
+        Afin de produire les cartes interactives, un travail préalable de **géocodage** a été réalisé
+        pour associer chaque département à des coordonnées latitude / longitude.
+        Les départements ont été géocodés à partir des **CSV issus du scraping**
+        (EtreProprio & SeLoger).
+        """)
+    
+        st.code(
+        """Géocodage des départements :
+    ✅ Géocodé: Ain -> (46.0652385, 5.2847717)
+    ✅ Géocodé: Aisne -> (49.4532855, 3.606899)
+    ✅ Géocodé: Allier -> (46.3674641, 3.1638828)
+    ✅ Géocodé: Alpes-de-Haute-Provence -> (44.1640832, 6.1878515)
+    ✅ Géocodé: Hautes-Alpes -> (44.6564666, 6.3520246)
+    ✅ Géocodé: Alpes-Maritimes -> (43.9210587, 7.1790785)
+    ✅ Géocodé: Ardèche -> (44.815194, 4.3986525)
+    ✅ Géocodé: Ardennes -> (49.6980118, 4.6716005)
+    ✅ Géocodé: Ariège -> (42.9455368, 1.4065544)
+    ✅ Géocodé: Aube -> (48.3201921, 4.1905397)
+    """,
+        language="text"
+        )
+    
+        st.markdown("Les coordonnées sont ensuite consolidées dans des fichiers **GeoJSON**.")
+    
+    # ─── TAB 2: GÉOCODAGE PARIS ───
+    with geo_tab2:
+        st.markdown("""
+        Pour Paris, un géocodage plus fin a été réalisé à partir des
+        **codes postaux**, chaque code correspondant à un arrondissement.
+        """)
+    
+        st.code(
+        """Nombre total d'annonces à Paris (filtrées) : 31167
+    Nombre de Codes Postaux UNIQUES (Arrondissements) à géocoder : 23
+    ✅ Réussi: CP 75000 -> (48.8522751, 2.3967596)
+    ✅ Réussi: CP 75001 -> (48.8618779, 2.3374139)
+    ✅ Réussi: CP 75002 -> (48.8676828, 2.3431278)
+    ✅ Réussi: CP 75003 -> (48.8626858, 2.3586866)
+    ✅ Réussi: CP 75004 -> (48.8541478, 2.3568079)
+    ✅ Réussi: CP 75005 -> (48.8454189, 2.3525824)
+    ✅ Réussi: CP 75006 -> (48.8493765, 2.3322544)
+    ✅ Réussi: CP 75007 -> (48.854909, 2.3128667)
+    ✅ Réussi: CP 75008 -> (48.8733792, 2.3111527)
+    ✅ Réussi: CP 75009 -> (48.8770673, 2.3379172)
+    """,
+        language="text"
+        )
+    
+        st.markdown("Les coordonnées sont ensuite consolidées dans des fichiers **GeoJSON**.")
+
+    
     st.markdown("""
     <div class="info-box">
         <p style="margin: 0; color: #c9a227 !important;">
