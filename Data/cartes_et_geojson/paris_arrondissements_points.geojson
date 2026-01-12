@@ -1,0 +1,350 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3967596,
+          48.8522751
+        ]
+      },
+      "properties": {
+        "code_postal": "75000",
+        "prix_moyen_m2": 5963.576,
+        "nombre_annonces": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374139,
+          48.8618779
+        ]
+      },
+      "properties": {
+        "code_postal": "75001",
+        "prix_moyen_m2": 17805.877831858408,
+        "nombre_annonces": 452
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3431278,
+          48.8676828
+        ]
+      },
+      "properties": {
+        "code_postal": "75002",
+        "prix_moyen_m2": 13880.944836223507,
+        "nombre_annonces": 519
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3586866,
+          48.8626858
+        ]
+      },
+      "properties": {
+        "code_postal": "75003",
+        "prix_moyen_m2": 13391.816585365852,
+        "nombre_annonces": 779
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3568079,
+          48.8541478
+        ]
+      },
+      "properties": {
+        "code_postal": "75004",
+        "prix_moyen_m2": 14568.036989247312,
+        "nombre_annonces": 744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3525824,
+          48.8454189
+        ]
+      },
+      "properties": {
+        "code_postal": "75005",
+        "prix_moyen_m2": 14192.396031331591,
+        "nombre_annonces": 766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322544,
+          48.8493765
+        ]
+      },
+      "properties": {
+        "code_postal": "75006",
+        "prix_moyen_m2": 16897.3137963844,
+        "nombre_annonces": 1051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3128667,
+          48.854909
+        ]
+      },
+      "properties": {
+        "code_postal": "75007",
+        "prix_moyen_m2": 17010.341023751025,
+        "nombre_annonces": 1221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3111527,
+          48.8733792
+        ]
+      },
+      "properties": {
+        "code_postal": "75008",
+        "prix_moyen_m2": 16312.560106122448,
+        "nombre_annonces": 1225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3379172,
+          48.8770673
+        ]
+      },
+      "properties": {
+        "code_postal": "75009",
+        "prix_moyen_m2": 13685.88867857143,
+        "nombre_annonces": 840
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.360445,
+          48.8760081
+        ]
+      },
+      "properties": {
+        "code_postal": "75010",
+        "prix_moyen_m2": 10827.417300347222,
+        "nombre_annonces": 1152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3781399,
+          48.8600808
+        ]
+      },
+      "properties": {
+        "code_postal": "75011",
+        "prix_moyen_m2": 10400.568870490835,
+        "nombre_annonces": 1691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4451359,
+          48.8352003
+        ]
+      },
+      "properties": {
+        "code_postal": "75012",
+        "prix_moyen_m2": 9925.963507692308,
+        "nombre_annonces": 1300
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3630439,
+          48.8298445
+        ]
+      },
+      "properties": {
+        "code_postal": "75013",
+        "prix_moyen_m2": 10258.36464516129,
+        "nombre_annonces": 1395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.323974,
+          48.8295585
+        ]
+      },
+      "properties": {
+        "code_postal": "75014",
+        "prix_moyen_m2": 10160.985432464455,
+        "nombre_annonces": 1688
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2961649,
+          48.8414302
+        ]
+      },
+      "properties": {
+        "code_postal": "75015",
+        "prix_moyen_m2": 10591.616843647016,
+        "nombre_annonces": 2731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2553299,
+          48.854928
+        ]
+      },
+      "properties": {
+        "code_postal": "75016",
+        "prix_moyen_m2": 13344.237260155574,
+        "nombre_annonces": 3471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3064833,
+          48.8873906
+        ]
+      },
+      "properties": {
+        "code_postal": "75017",
+        "prix_moyen_m2": 11806.772673775671,
+        "nombre_annonces": 2532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3479768,
+          48.8916223
+        ]
+      },
+      "properties": {
+        "code_postal": "75018",
+        "prix_moyen_m2": 10359.847023148148,
+        "nombre_annonces": 4320
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3830496,
+          48.8869876
+        ]
+      },
+      "properties": {
+        "code_postal": "75019",
+        "prix_moyen_m2": 8730.183675715334,
+        "nombre_annonces": 1363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4010758,
+          48.8618219
+        ]
+      },
+      "properties": {
+        "code_postal": "75020",
+        "prix_moyen_m2": 9423.545554826002,
+        "nombre_annonces": 1523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3483915,
+          48.8534951
+        ]
+      },
+      "properties": {
+        "code_postal": "75107",
+        "prix_moyen_m2": 8291.67,
+        "nombre_annonces": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.279847,
+          48.8690634
+        ]
+      },
+      "properties": {
+        "code_postal": "75116",
+        "prix_moyen_m2": 14471.12451948052,
+        "nombre_annonces": 385
+      }
+    }
+  ]
+}

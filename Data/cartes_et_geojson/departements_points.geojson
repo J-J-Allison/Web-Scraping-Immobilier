@@ -1,0 +1,1505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2847717,
+          46.0652385
+        ]
+      },
+      "properties": {
+        "departement": "Ain",
+        "prix_moyen_m2": 2715.9954325123153,
+        "nombre_annonces": 5075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.606899,
+          49.4532855
+        ]
+      },
+      "properties": {
+        "departement": "Aisne",
+        "prix_moyen_m2": 1321.4639606523428,
+        "nombre_annonces": 3863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1638828,
+          46.3674641
+        ]
+      },
+      "properties": {
+        "departement": "Allier",
+        "prix_moyen_m2": 1532.2348582333698,
+        "nombre_annonces": 3668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1790785,
+          43.9210587
+        ]
+      },
+      "properties": {
+        "departement": "Alpes-Maritimes",
+        "prix_moyen_m2": 7317.131165100313,
+        "nombre_annonces": 15003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1878515,
+          44.1640832
+        ]
+      },
+      "properties": {
+        "departement": "Alpes-de-Haute-Provence",
+        "prix_moyen_m2": 2506.561907335907,
+        "nombre_annonces": 2590
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6716005,
+          49.6980118
+        ]
+      },
+      "properties": {
+        "departement": "Ardennes",
+        "prix_moyen_m2": 1091.290013149244,
+        "nombre_annonces": 1521
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3986525,
+          44.815194
+        ]
+      },
+      "properties": {
+        "departement": "Ardèche",
+        "prix_moyen_m2": 1845.5543459152016,
+        "nombre_annonces": 3868
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4065544,
+          42.9455368
+        ]
+      },
+      "properties": {
+        "departement": "Ariège",
+        "prix_moyen_m2": 1446.767942238267,
+        "nombre_annonces": 1662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1905397,
+          48.3201921
+        ]
+      },
+      "properties": {
+        "departement": "Aube",
+        "prix_moyen_m2": 1548.8726553880103,
+        "nombre_annonces": 2719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5124715,
+          43.0542733
+        ]
+      },
+      "properties": {
+        "departement": "Aude",
+        "prix_moyen_m2": 2103.5463746223563,
+        "nombre_annonces": 8275
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5065697,
+          44.3158575
+        ]
+      },
+      "properties": {
+        "departement": "Aveyron",
+        "prix_moyen_m2": 1377.505933310416,
+        "nombre_annonces": 2909
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5336198,
+          48.5989894
+        ]
+      },
+      "properties": {
+        "departement": "Bas-Rhin",
+        "prix_moyen_m2": 2912.211142305407,
+        "nombre_annonces": 6732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0343236,
+          43.5424182
+        ]
+      },
+      "properties": {
+        "departement": "Bouches-du-Rhône",
+        "prix_moyen_m2": 4272.868085012176,
+        "nombre_annonces": 13551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.241238,
+          49.0907886
+        ]
+      },
+      "properties": {
+        "departement": "Calvados",
+        "prix_moyen_m2": 3395.006238406408,
+        "nombre_annonces": 9488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6997176,
+          45.0497701
+        ]
+      },
+      "properties": {
+        "departement": "Cantal",
+        "prix_moyen_m2": 1262.8838,
+        "nombre_annonces": 1200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.097305,
+          45.6667902
+        ]
+      },
+      "properties": {
+        "departement": "Charente",
+        "prix_moyen_m2": 1303.9538236540907,
+        "nombre_annonces": 4718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7212876,
+          45.7302268
+        ]
+      },
+      "properties": {
+        "departement": "Charente-Maritime",
+        "prix_moyen_m2": 2923.988126705814,
+        "nombre_annonces": 12091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5753334,
+          47.0248824
+        ]
+      },
+      "properties": {
+        "departement": "Cher",
+        "prix_moyen_m2": 1222.0204803102624,
+        "nombre_annonces": 3352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8176424,
+          45.3429047
+        ]
+      },
+      "properties": {
+        "departement": "Corrèze",
+        "prix_moyen_m2": 1441.5026306913996,
+        "nombre_annonces": 2372
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0087052,
+          41.8734083
+        ]
+      },
+      "properties": {
+        "departement": "Corse-du-Sud",
+        "prix_moyen_m2": 5454.8633244444445,
+        "nombre_annonces": 2250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.048901,
+          46.0593485
+        ]
+      },
+      "properties": {
+        "departement": "Creuse",
+        "prix_moyen_m2": 948.3544478293983,
+        "nombre_annonces": 1313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7481223,
+          47.4655034
+        ]
+      },
+      "properties": {
+        "departement": "Côte-d'Or",
+        "prix_moyen_m2": 2076.310576036866,
+        "nombre_annonces": 4340
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7514328,
+          48.4614877
+        ]
+      },
+      "properties": {
+        "departement": "Côtes-d'Armor",
+        "prix_moyen_m2": 2453.4541180531583,
+        "nombre_annonces": 5794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2994785,
+          46.53914
+        ]
+      },
+      "properties": {
+        "departement": "Deux-Sèvres",
+        "prix_moyen_m2": 2907.9413794983643,
+        "nombre_annonces": 3668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6321258,
+          45.1429199
+        ]
+      },
+      "properties": {
+        "departement": "Dordogne",
+        "prix_moyen_m2": 1775.4377191267515,
+        "nombre_annonces": 6138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2356228,
+          47.0669916
+        ]
+      },
+      "properties": {
+        "departement": "Doubs",
+        "prix_moyen_m2": 2408.5588969521045,
+        "nombre_annonces": 3445
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2046372,
+          44.7295348
+        ]
+      },
+      "properties": {
+        "departement": "Drôme",
+        "prix_moyen_m2": 2077.72686922366,
+        "nombre_annonces": 4328
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2392918,
+          48.5303402
+        ]
+      },
+      "properties": {
+        "departement": "Essonne",
+        "prix_moyen_m2": 2756.8320293060547,
+        "nombre_annonces": 10851
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9651829,
+          49.0756358
+        ]
+      },
+      "properties": {
+        "departement": "Eure",
+        "prix_moyen_m2": 1807.6344343419287,
+        "nombre_annonces": 6709
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.399882,
+          48.4474102
+        ]
+      },
+      "properties": {
+        "departement": "Eure-et-Loir",
+        "prix_moyen_m2": 1798.7416968412945,
+        "nombre_annonces": 5192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0440902,
+          48.2451153
+        ]
+      },
+      "properties": {
+        "departement": "Finistère",
+        "prix_moyen_m2": 2728.6605505990315,
+        "nombre_annonces": 7846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.297637,
+          43.95995
+        ]
+      },
+      "properties": {
+        "departement": "Gard",
+        "prix_moyen_m2": 2620.7141064922935,
+        "nombre_annonces": 10705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4101019,
+          43.6955276
+        ]
+      },
+      "properties": {
+        "departement": "Gers",
+        "prix_moyen_m2": 1573.3977191328936,
+        "nombre_annonces": 3183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6051264,
+          44.883746
+        ]
+      },
+      "properties": {
+        "departement": "Gironde",
+        "prix_moyen_m2": 3448.5151463258785,
+        "nombre_annonces": 15650
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5686855,
+          16.2528827
+        ]
+      },
+      "properties": {
+        "departement": "Guadeloupe",
+        "prix_moyen_m2": 4764.322097097098,
+        "nombre_annonces": 1998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.999998,
+          4.0039882
+        ]
+      },
+      "properties": {
+        "departement": "Guyane",
+        "prix_moyen_m2": 2671.597775510204,
+        "nombre_annonces": 490
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2316245,
+          47.8655703
+        ]
+      },
+      "properties": {
+        "departement": "Haut-Rhin",
+        "prix_moyen_m2": 2266.042112777878,
+        "nombre_annonces": 5533
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1009065,
+          42.4219698
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Corse",
+        "prix_moyen_m2": 3967.214026666667,
+        "nombre_annonces": 2250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9716792,
+          43.3054546
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Garonne",
+        "prix_moyen_m2": 2764.213621340888,
+        "nombre_annonces": 12708
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8338261,
+          45.0857249
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Loire",
+        "prix_moyen_m2": 1930.2404473219542,
+        "nombre_annonces": 1699
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2529108,
+          48.1329414
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Marne",
+        "prix_moyen_m2": 1140.0925061830173,
+        "nombre_annonces": 1213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3445321,
+          46.0690407
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Savoie",
+        "prix_moyen_m2": 5249.794661798617,
+        "nombre_annonces": 10408
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0951141,
+          47.6384234
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Saône",
+        "prix_moyen_m2": 1342.8432445820433,
+        "nombre_annonces": 1615
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2031768,
+          45.9190193
+        ]
+      },
+      "properties": {
+        "departement": "Haute-Vienne",
+        "prix_moyen_m2": 2913.230248514317,
+        "nombre_annonces": 3702
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3520246,
+          44.6564666
+        ]
+      },
+      "properties": {
+        "departement": "Hautes-Alpes",
+        "prix_moyen_m2": 2795.8382395644285,
+        "nombre_annonces": 2204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1586661,
+          43.1437925
+        ]
+      },
+      "properties": {
+        "departement": "Hautes-Pyrénées",
+        "prix_moyen_m2": 1806.7747093023256,
+        "nombre_annonces": 2924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.19863,
+          48.8401859
+        ]
+      },
+      "properties": {
+        "departement": "Hauts-de-Seine",
+        "prix_moyen_m2": 7134.102437657287,
+        "nombre_annonces": 8742
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3553309,
+          43.591422
+        ]
+      },
+      "properties": {
+        "departement": "Hérault",
+        "prix_moyen_m2": 3220.2415112754607,
+        "nombre_annonces": 16496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6498092,
+          48.1727681
+        ]
+      },
+      "properties": {
+        "departement": "Ille-et-Vilaine",
+        "prix_moyen_m2": 3044.2772649752606,
+        "nombre_annonces": 9499
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5382052,
+          46.8121057
+        ]
+      },
+      "properties": {
+        "departement": "Indre",
+        "prix_moyen_m2": 1115.8203913491247,
+        "nombre_annonces": 1942
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6866703,
+          47.2232046
+        ]
+      },
+      "properties": {
+        "departement": "Indre-et-Loire",
+        "prix_moyen_m2": 2028.9582182750412,
+        "nombre_annonces": 5461
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6343825,
+          45.2897932
+        ]
+      },
+      "properties": {
+        "departement": "Isère",
+        "prix_moyen_m2": 2691.360110206513,
+        "nombre_annonces": 10072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7832857,
+          46.7833625
+        ]
+      },
+      "properties": {
+        "departement": "Jura",
+        "prix_moyen_m2": 2292.605960154953,
+        "nombre_annonces": 1807
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.5364801,
+          -21.1307379
+        ]
+      },
+      "properties": {
+        "departement": "La Réunion",
+        "prix_moyen_m2": 3435.700938230384,
+        "nombre_annonces": 2995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6433872,
+          44.0099695
+        ]
+      },
+      "properties": {
+        "departement": "Landes",
+        "prix_moyen_m2": 3201.447960591133,
+        "nombre_annonces": 6090
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2971835,
+          47.6597752
+        ]
+      },
+      "properties": {
+        "departement": "Loir-et-Cher",
+        "prix_moyen_m2": 1904.7101759953837,
+        "nombre_annonces": 3466
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0454737,
+          45.7538536
+        ]
+      },
+      "properties": {
+        "departement": "Loire",
+        "prix_moyen_m2": 1703.8477718744814,
+        "nombre_annonces": 6023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8727461,
+          47.3481615
+        ]
+      },
+      "properties": {
+        "departement": "Loire-Atlantique",
+        "prix_moyen_m2": 2908.9658978974653,
+        "nombre_annonces": 13888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3075036,
+          47.9138725
+        ]
+      },
+      "properties": {
+        "departement": "Loiret",
+        "prix_moyen_m2": 1819.013081595797,
+        "nombre_annonces": 6091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6657742,
+          44.6249918
+        ]
+      },
+      "properties": {
+        "departement": "Lot",
+        "prix_moyen_m2": 1699.2000320769848,
+        "nombre_annonces": 2494
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4539158,
+          44.3691703
+        ]
+      },
+      "properties": {
+        "departement": "Lot-et-Garonne",
+        "prix_moyen_m2": 1591.4346713892169,
+        "nombre_annonces": 5082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5211146,
+          44.5425706
+        ]
+      },
+      "properties": {
+        "departement": "Lozère",
+        "prix_moyen_m2": 1422.5696218487394,
+        "nombre_annonces": 476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3909097,
+          47.3886305
+        ]
+      },
+      "properties": {
+        "departement": "Maine-et-Loire",
+        "prix_moyen_m2": 2807.013928944619,
+        "nombre_annonces": 5742
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2454952,
+          49.0918952
+        ]
+      },
+      "properties": {
+        "departement": "Manche",
+        "prix_moyen_m2": 2980.8603569110965,
+        "nombre_annonces": 4623
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3122436,
+          48.961264
+        ]
+      },
+      "properties": {
+        "departement": "Marne",
+        "prix_moyen_m2": 2148.588700343306,
+        "nombre_annonces": 4078
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9620777,
+          14.6113732
+        ]
+      },
+      "properties": {
+        "departement": "Martinique",
+        "prix_moyen_m2": 3518.6773206278026,
+        "nombre_annonces": 1784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6491274,
+          48.1507819
+        ]
+      },
+      "properties": {
+        "departement": "Mayenne",
+        "prix_moyen_m2": 2575.323459244533,
+        "nombre_annonces": 2012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9870383,
+          48.9559683
+        ]
+      },
+      "properties": {
+        "departement": "Meurthe-et-Moselle",
+        "prix_moyen_m2": 1999.951854759568,
+        "nombre_annonces": 5095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4286691,
+          49.0129685
+        ]
+      },
+      "properties": {
+        "departement": "Meuse",
+        "prix_moyen_m2": 1227.5620822622107,
+        "nombre_annonces": 1167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7633493,
+          47.8259812
+        ]
+      },
+      "properties": {
+        "departement": "Morbihan",
+        "prix_moyen_m2": 3209.0618147562905,
+        "nombre_annonces": 8227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5380352,
+          49.0207259
+        ]
+      },
+      "properties": {
+        "departement": "Moselle",
+        "prix_moyen_m2": 1900.7898080133555,
+        "nombre_annonces": 5990
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5448898,
+          47.1196971
+        ]
+      },
+      "properties": {
+        "departement": "Nièvre",
+        "prix_moyen_m2": 1331.084017167382,
+        "nombre_annonces": 2330
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0883508,
+          50.5289615
+        ]
+      },
+      "properties": {
+        "departement": "Nord",
+        "prix_moyen_m2": 2456.5447132043737,
+        "nombre_annonces": 11890
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4064878,
+          49.4120546
+        ]
+      },
+      "properties": {
+        "departement": "Oise",
+        "prix_moyen_m2": 2239.6596223404254,
+        "nombre_annonces": 7520
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0448794,
+          48.575888
+        ]
+      },
+      "properties": {
+        "departement": "Orne",
+        "prix_moyen_m2": 1724.3530437710438,
+        "nombre_annonces": 2970
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.320041,
+          48.8588897
+        ]
+      },
+      "properties": {
+        "departement": "Paris",
+        "prix_moyen_m2": 11989.425481469598,
+        "nombre_annonces": 31165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2580078,
+          50.5144061
+        ]
+      },
+      "properties": {
+        "departement": "Pas-de-Calais",
+        "prix_moyen_m2": 2241.084411458935,
+        "nombre_annonces": 8657
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0839934,
+          45.7715343
+        ]
+      },
+      "properties": {
+        "departement": "Puy-de-Dôme",
+        "prix_moyen_m2": 1790.3831741293532,
+        "nombre_annonces": 5025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7282474,
+          43.1871866
+        ]
+      },
+      "properties": {
+        "departement": "Pyrénées-Atlantiques",
+        "prix_moyen_m2": 3674.5387450580283,
+        "nombre_annonces": 7841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.506509,
+          42.625894
+        ]
+      },
+      "properties": {
+        "departement": "Pyrénées-Orientales",
+        "prix_moyen_m2": 2843.421260939757,
+        "nombre_annonces": 11769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5645336,
+          45.8802348
+        ]
+      },
+      "properties": {
+        "departement": "Rhône",
+        "prix_moyen_m2": 3577.5912745012633,
+        "nombre_annonces": 11479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2538217,
+          48.0269288
+        ]
+      },
+      "properties": {
+        "departement": "Sarthe",
+        "prix_moyen_m2": 2337.3356198347105,
+        "nombre_annonces": 4235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3846604,
+          45.4948952
+        ]
+      },
+      "properties": {
+        "departement": "Savoie",
+        "prix_moyen_m2": 4698.06429537075,
+        "nombre_annonces": 4882
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5586835,
+          46.6557086
+        ]
+      },
+      "properties": {
+        "departement": "Saône-et-Loire",
+        "prix_moyen_m2": 1679.6302673021135,
+        "nombre_annonces": 4826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9373524,
+          49.6613528
+        ]
+      },
+      "properties": {
+        "departement": "Seine-Maritime",
+        "prix_moyen_m2": 2255.754721913798,
+        "nombre_annonces": 9907
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4528635,
+          48.9098125
+        ]
+      },
+      "properties": {
+        "departement": "Seine-Saint-Denis",
+        "prix_moyen_m2": 4180.575786432161,
+        "nombre_annonces": 7960
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0418158,
+          48.6190207
+        ]
+      },
+      "properties": {
+        "departement": "Seine-et-Marne",
+        "prix_moyen_m2": 2410.3786543843285,
+        "nombre_annonces": 12864
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3738855,
+          49.9689482
+        ]
+      },
+      "properties": {
+        "departement": "Somme",
+        "prix_moyen_m2": 3274.730984423676,
+        "nombre_annonces": 4815
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1339648,
+          43.7921741
+        ]
+      },
+      "properties": {
+        "departement": "Tarn",
+        "prix_moyen_m2": 1545.266506266786,
+        "nombre_annonces": 4468
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2050633,
+          44.080656
+        ]
+      },
+      "properties": {
+        "departement": "Tarn-et-Garonne",
+        "prix_moyen_m2": 1584.7995026801668,
+        "nombre_annonces": 3358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8993012,
+          47.629231
+        ]
+      },
+      "properties": {
+        "departement": "Territoire de Belfort",
+        "prix_moyen_m2": 1411.0882697947216,
+        "nombre_annonces": 1023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2098114,
+          49.0750705
+        ]
+      },
+      "properties": {
+        "departement": "Val-d'Oise",
+        "prix_moyen_m2": 3215.563158846686,
+        "nombre_annonces": 9399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4543321,
+          48.7744894
+        ]
+      },
+      "properties": {
+        "departement": "Val-de-Marne",
+        "prix_moyen_m2": 4975.626115132323,
+        "nombre_annonces": 8842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2664637,
+          43.4173551
+        ]
+      },
+      "properties": {
+        "departement": "Var",
+        "prix_moyen_m2": 4819.402157033659,
+        "nombre_annonces": 14914
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1818898,
+          43.9938644
+        ]
+      },
+      "properties": {
+        "departement": "Vaucluse",
+        "prix_moyen_m2": 3506.419121041331,
+        "nombre_annonces": 7452
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2914463,
+          46.6757733
+        ]
+      },
+      "properties": {
+        "departement": "Vendée",
+        "prix_moyen_m2": 2949.492901348605,
+        "nombre_annonces": 10826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.465407,
+          46.6121165
+        ]
+      },
+      "properties": {
+        "departement": "Vienne",
+        "prix_moyen_m2": 3743.7335100065975,
+        "nombre_annonces": 4547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3820712,
+          48.1637861
+        ]
+      },
+      "properties": {
+        "departement": "Vosges",
+        "prix_moyen_m2": 1665.2256130600904,
+        "nombre_annonces": 2879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6450439,
+          47.8551258
+        ]
+      },
+      "properties": {
+        "departement": "Yonne",
+        "prix_moyen_m2": 1335.6197530054644,
+        "nombre_annonces": 4575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8871376,
+          48.7620374
+        ]
+      },
+      "properties": {
+        "departement": "Yvelines",
+        "prix_moyen_m2": 3926.415371182459,
+        "nombre_annonces": 12770
+      }
+    }
+  ]
+}
