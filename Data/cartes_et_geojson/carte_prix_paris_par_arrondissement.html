@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d02db2015caf8136ea01cf36460ccbf9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d02db2015caf8136ea01cf36460ccbf9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d02db2015caf8136ea01cf36460ccbf9 = L.map(
+                "map_d02db2015caf8136ea01cf36460ccbf9",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_082e9851716a56ccefa73c949376509a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_082e9851716a56ccefa73c949376509a.addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+            var circle_marker_e56823986324685b30a39830a06d574d = L.circleMarker(
+                [48.8522751, 2.3967596],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.060213061602594, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_02144b3c9afba6d19f531ffe06f01ba3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3973e4b3d612117ababf5147745500d4 = $(`<div id="html_3973e4b3d612117ababf5147745500d4" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75000</b><br>Prix Moyen/m² : 5,964 €<br>Nombre d'annonces: 15</div>`)[0];
+                popup_02144b3c9afba6d19f531ffe06f01ba3.setContent(html_3973e4b3d612117ababf5147745500d4);
+            
+        
+
+        circle_marker_e56823986324685b30a39830a06d574d.bindPopup(popup_02144b3c9afba6d19f531ffe06f01ba3)
+        ;
+
+        
+    
+    
+            var circle_marker_8359003f8b2845d746fd860a331a0912 = L.circleMarker(
+                [48.8618779, 2.3374139],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.084298286243632, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_dc7f95cd1d79df2947efd2f01c2877d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a41f9d29c53a178257c74177592bdf8 = $(`<div id="html_6a41f9d29c53a178257c74177592bdf8" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75001</b><br>Prix Moyen/m² : 17,806 €<br>Nombre d'annonces: 452</div>`)[0];
+                popup_dc7f95cd1d79df2947efd2f01c2877d1.setContent(html_6a41f9d29c53a178257c74177592bdf8);
+            
+        
+
+        circle_marker_8359003f8b2845d746fd860a331a0912.bindPopup(popup_dc7f95cd1d79df2947efd2f01c2877d1)
+        ;
+
+        
+    
+    
+            var circle_marker_3998df8d34dc9476b0f0b42ec278725c = L.circleMarker(
+                [48.8676828, 2.3431278],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.394627142195461, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_4d2dc1d0398c557a2c9df208f9be5c93 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba0dcacefdc0153ea57b9640ed457252 = $(`<div id="html_ba0dcacefdc0153ea57b9640ed457252" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75002</b><br>Prix Moyen/m² : 13,881 €<br>Nombre d'annonces: 519</div>`)[0];
+                popup_4d2dc1d0398c557a2c9df208f9be5c93.setContent(html_ba0dcacefdc0153ea57b9640ed457252);
+            
+        
+
+        circle_marker_3998df8d34dc9476b0f0b42ec278725c.bindPopup(popup_4d2dc1d0398c557a2c9df208f9be5c93)
+        ;
+
+        
+    
+    
+            var circle_marker_439cd8b72a1f2e75eb4f07269c73843d = L.circleMarker(
+                [48.8626858, 2.3586866],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.598888374247338, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_7c9f5b36cea3236fbe11d9d0e4ba7a4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58e2dfb109e3763c4af441c4b9c5bb44 = $(`<div id="html_58e2dfb109e3763c4af441c4b9c5bb44" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75003</b><br>Prix Moyen/m² : 13,392 €<br>Nombre d'annonces: 779</div>`)[0];
+                popup_7c9f5b36cea3236fbe11d9d0e4ba7a4a.setContent(html_58e2dfb109e3763c4af441c4b9c5bb44);
+            
+        
+
+        circle_marker_439cd8b72a1f2e75eb4f07269c73843d.bindPopup(popup_7c9f5b36cea3236fbe11d9d0e4ba7a4a)
+        ;
+
+        
+    
+    
+            var circle_marker_a4f067ab5c235eeb46218a3055326e66 = L.circleMarker(
+                [48.8541478, 2.3568079],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.436776285317276, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_eb4d789ed61570176f62e230910e12d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d2f31a1fb973f85034e72db5d39ea87 = $(`<div id="html_3d2f31a1fb973f85034e72db5d39ea87" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75004</b><br>Prix Moyen/m² : 14,568 €<br>Nombre d'annonces: 744</div>`)[0];
+                popup_eb4d789ed61570176f62e230910e12d7.setContent(html_3d2f31a1fb973f85034e72db5d39ea87);
+            
+        
+
+        circle_marker_a4f067ab5c235eeb46218a3055326e66.bindPopup(popup_eb4d789ed61570176f62e230910e12d7)
+        ;
+
+        
+    
+    
+            var circle_marker_49bb5552d110038634ff44b0fd4ae208 = L.circleMarker(
+                [48.8454189, 2.3525824],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.538675312644743, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_f7ab596168adb57fde15dd2d2dae71d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_486c01fd1e7db84367473e7746773e6a = $(`<div id="html_486c01fd1e7db84367473e7746773e6a" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75005</b><br>Prix Moyen/m² : 14,192 €<br>Nombre d'annonces: 766</div>`)[0];
+                popup_f7ab596168adb57fde15dd2d2dae71d5.setContent(html_486c01fd1e7db84367473e7746773e6a);
+            
+        
+
+        circle_marker_49bb5552d110038634ff44b0fd4ae208.bindPopup(popup_f7ab596168adb57fde15dd2d2dae71d5)
+        ;
+
+        
+    
+    
+            var circle_marker_17612907b7e8e807dcead3492d87c511 = L.circleMarker(
+                [48.8493765, 2.3322544],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.858730893932375, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_8ff1988e923705e015b80c9e1f536f4f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a3fac3587e2f4f85d98363a28c1fdda = $(`<div id="html_4a3fac3587e2f4f85d98363a28c1fdda" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75006</b><br>Prix Moyen/m² : 16,897 €<br>Nombre d'annonces: 1,051</div>`)[0];
+                popup_8ff1988e923705e015b80c9e1f536f4f.setContent(html_4a3fac3587e2f4f85d98363a28c1fdda);
+            
+        
+
+        circle_marker_17612907b7e8e807dcead3492d87c511.bindPopup(popup_8ff1988e923705e015b80c9e1f536f4f)
+        ;
+
+        
+    
+    
+            var circle_marker_070fa0c1b268499313f14d195d0d02f0 = L.circleMarker(
+                [48.854909, 2.3128667],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.646132468735527, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_6a827babc4f2255592658bb1e2477072 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_682b2f2c52337feb598789b0ef3ff21b = $(`<div id="html_682b2f2c52337feb598789b0ef3ff21b" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75007</b><br>Prix Moyen/m² : 17,010 €<br>Nombre d'annonces: 1,221</div>`)[0];
+                popup_6a827babc4f2255592658bb1e2477072.setContent(html_682b2f2c52337feb598789b0ef3ff21b);
+            
+        
+
+        circle_marker_070fa0c1b268499313f14d195d0d02f0.bindPopup(popup_6a827babc4f2255592658bb1e2477072)
+        ;
+
+        
+    
+    
+            var circle_marker_556cdd94673d921e9faea8961e2e4673 = L.circleMarker(
+                [48.8733792, 2.3111527],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.664659564613247, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_fe3aa79366f5c6c57d8155c7d323dc26 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a538323c91f44d5c651e60f82ac9e196 = $(`<div id="html_a538323c91f44d5c651e60f82ac9e196" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75008</b><br>Prix Moyen/m² : 16,313 €<br>Nombre d'annonces: 1,225</div>`)[0];
+                popup_fe3aa79366f5c6c57d8155c7d323dc26.setContent(html_a538323c91f44d5c651e60f82ac9e196);
+            
+        
+
+        circle_marker_556cdd94673d921e9faea8961e2e4673.bindPopup(popup_fe3aa79366f5c6c57d8155c7d323dc26)
+        ;
+
+        
+    
+    
+            var circle_marker_74b41f10afd2592b575552bff9b7c71d = L.circleMarker(
+                [48.8770673, 2.3379172],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.881426586382585, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_dfe26291a199caf386d27d52762f2ec1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_539845ac073261350d93f37a79754e68 = $(`<div id="html_539845ac073261350d93f37a79754e68" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75009</b><br>Prix Moyen/m² : 13,686 €<br>Nombre d'annonces: 840</div>`)[0];
+                popup_dfe26291a199caf386d27d52762f2ec1.setContent(html_539845ac073261350d93f37a79754e68);
+            
+        
+
+        circle_marker_74b41f10afd2592b575552bff9b7c71d.bindPopup(popup_dfe26291a199caf386d27d52762f2ec1)
+        ;
+
+        
+    
+    
+            var circle_marker_1b5ef892f07aedb6ce5548317d0c1634 = L.circleMarker(
+                [48.8760081, 2.360445],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.326540064844835, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_d764c2b964c02ab6aca4d9363e7e5659 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a680445746f7f5faff162eab200980be = $(`<div id="html_a680445746f7f5faff162eab200980be" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75010</b><br>Prix Moyen/m² : 10,827 €<br>Nombre d'annonces: 1,152</div>`)[0];
+                popup_d764c2b964c02ab6aca4d9363e7e5659.setContent(html_a680445746f7f5faff162eab200980be);
+            
+        
+
+        circle_marker_1b5ef892f07aedb6ce5548317d0c1634.bindPopup(popup_d764c2b964c02ab6aca4d9363e7e5659)
+        ;
+
+        
+    
+    
+            var circle_marker_61f886ff7b522c22f91a0808a5a87385 = L.circleMarker(
+                [48.8600808, 2.3781399],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.823066234367763, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_55e18c43a4067252289dce4b791c7f06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d6a7f29422e87fd4caf376ddaa773979 = $(`<div id="html_d6a7f29422e87fd4caf376ddaa773979" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75011</b><br>Prix Moyen/m² : 10,401 €<br>Nombre d'annonces: 1,691</div>`)[0];
+                popup_55e18c43a4067252289dce4b791c7f06.setContent(html_d6a7f29422e87fd4caf376ddaa773979);
+            
+        
+
+        circle_marker_61f886ff7b522c22f91a0808a5a87385.bindPopup(popup_55e18c43a4067252289dce4b791c7f06)
+        ;
+
+        
+    
+    
+            var circle_marker_e178b00d4091879e612d034d60423928 = L.circleMarker(
+                [48.8352003, 2.4451359],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.012042612320519, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_6aa013e60177da438504a98f5144dd0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0346976f7da0f82a42788e533f3dcfe1 = $(`<div id="html_0346976f7da0f82a42788e533f3dcfe1" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75012</b><br>Prix Moyen/m² : 9,926 €<br>Nombre d'annonces: 1,300</div>`)[0];
+                popup_6aa013e60177da438504a98f5144dd0d.setContent(html_0346976f7da0f82a42788e533f3dcfe1);
+            
+        
+
+        circle_marker_e178b00d4091879e612d034d60423928.bindPopup(popup_6aa013e60177da438504a98f5144dd0d)
+        ;
+
+        
+    
+    
+            var circle_marker_b319bd3f02736ca35aa485d61b70dcb7 = L.circleMarker(
+                [48.8298445, 2.3630439],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.452061139416397, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_9469b6d9bb28dc5a0eba7a23afb760c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_940108819bbe1e9f52a301205c5b8b7f = $(`<div id="html_940108819bbe1e9f52a301205c5b8b7f" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75013</b><br>Prix Moyen/m² : 10,258 €<br>Nombre d'annonces: 1,395</div>`)[0];
+                popup_9469b6d9bb28dc5a0eba7a23afb760c6.setContent(html_940108819bbe1e9f52a301205c5b8b7f);
+            
+        
+
+        circle_marker_b319bd3f02736ca35aa485d61b70dcb7.bindPopup(popup_9469b6d9bb28dc5a0eba7a23afb760c6)
+        ;
+
+        
+    
+    
+            var circle_marker_fc2d30f109a7e0ab9237c033ea085f7c = L.circleMarker(
+                [48.8295585, 2.323974],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.809170912459471, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_872c3753128bbf636738c6b6f4bcaada = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_49e4e96fad5d7ea91772c6f666e34046 = $(`<div id="html_49e4e96fad5d7ea91772c6f666e34046" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75014</b><br>Prix Moyen/m² : 10,161 €<br>Nombre d'annonces: 1,688</div>`)[0];
+                popup_872c3753128bbf636738c6b6f4bcaada.setContent(html_49e4e96fad5d7ea91772c6f666e34046);
+            
+        
+
+        circle_marker_fc2d30f109a7e0ab9237c033ea085f7c.bindPopup(popup_872c3753128bbf636738c6b6f4bcaada)
+        ;
+
+        
+    
+    
+            var circle_marker_c1e906d8ec88466cb2ac6f415f880fce = L.circleMarker(
+                [48.8414302, 2.2961649],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.640111162575266, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_d924b9c008c148fca47d8ebc562ecadf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aec488ef454eed8ee6d6c74f55a61ba7 = $(`<div id="html_aec488ef454eed8ee6d6c74f55a61ba7" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75015</b><br>Prix Moyen/m² : 10,592 €<br>Nombre d'annonces: 2,731</div>`)[0];
+                popup_d924b9c008c148fca47d8ebc562ecadf.setContent(html_aec488ef454eed8ee6d6c74f55a61ba7);
+            
+        
+
+        circle_marker_c1e906d8ec88466cb2ac6f415f880fce.bindPopup(popup_d924b9c008c148fca47d8ebc562ecadf)
+        ;
+
+        
+    
+    
+            var circle_marker_2e9bb213c72a1e8f4378676f656c9b75 = L.circleMarker(
+                [48.854928, 2.2553299],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.06762389995368, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_24732e82db879aa70fdd14ca8132b356 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fba03688b762c315c32fff57c8e2857d = $(`<div id="html_fba03688b762c315c32fff57c8e2857d" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75016</b><br>Prix Moyen/m² : 13,344 €<br>Nombre d'annonces: 3,471</div>`)[0];
+                popup_24732e82db879aa70fdd14ca8132b356.setContent(html_fba03688b762c315c32fff57c8e2857d);
+            
+        
+
+        circle_marker_2e9bb213c72a1e8f4378676f656c9b75.bindPopup(popup_24732e82db879aa70fdd14ca8132b356)
+        ;
+
+        
+    
+    
+            var circle_marker_da4fafc4f5e2742ead5dd4989fce21ca = L.circleMarker(
+                [48.8873906, 2.3064833],
+                {"bubblingMouseEvents": true, "color": "#0000ffff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ffff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.71838814265864, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_7650902018f04a6cd4159d90f83e48a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bbd17af5fbbc4a8d529af7464e61c4d8 = $(`<div id="html_bbd17af5fbbc4a8d529af7464e61c4d8" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75017</b><br>Prix Moyen/m² : 11,807 €<br>Nombre d'annonces: 2,532</div>`)[0];
+                popup_7650902018f04a6cd4159d90f83e48a6.setContent(html_bbd17af5fbbc4a8d529af7464e61c4d8);
+            
+        
+
+        circle_marker_da4fafc4f5e2742ead5dd4989fce21ca.bindPopup(popup_7650902018f04a6cd4159d90f83e48a6)
+        ;
+
+        
+    
+    
+            var circle_marker_43d881501a7a3f415d1067f3bd3e2774 = L.circleMarker(
+                [48.8916223, 2.3479768],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.0, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_4dcf6b5a57daa90775cfc0da252d9588 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13cba7ecb0fbcc2ba882ff00b7979858 = $(`<div id="html_13cba7ecb0fbcc2ba882ff00b7979858" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75018</b><br>Prix Moyen/m² : 10,360 €<br>Nombre d'annonces: 4,320</div>`)[0];
+                popup_4dcf6b5a57daa90775cfc0da252d9588.setContent(html_13cba7ecb0fbcc2ba882ff00b7979858);
+            
+        
+
+        circle_marker_43d881501a7a3f415d1067f3bd3e2774.bindPopup(popup_4dcf6b5a57daa90775cfc0da252d9588)
+        ;
+
+        
+    
+    
+            var circle_marker_1af9b522b480db27f4a3e76df3634750 = L.circleMarker(
+                [48.8869876, 2.3830496],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.303844372394627, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_44deb6a7be4db3dae67631869ee43098 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c59b1962846e9934ba9c80936b2f501d = $(`<div id="html_c59b1962846e9934ba9c80936b2f501d" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75019</b><br>Prix Moyen/m² : 8,730 €<br>Nombre d'annonces: 1,363</div>`)[0];
+                popup_44deb6a7be4db3dae67631869ee43098.setContent(html_c59b1962846e9934ba9c80936b2f501d);
+            
+        
+
+        circle_marker_1af9b522b480db27f4a3e76df3634750.bindPopup(popup_44deb6a7be4db3dae67631869ee43098)
+        ;
+
+        
+    
+    
+            var circle_marker_beae2051e453feceaac91517155c7b4a = L.circleMarker(
+                [48.8618219, 2.4010758],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.044928207503474, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_6ecc097cfda5bba7b63ce0b74f2932e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3eed1929590784eadbfe35471c317b50 = $(`<div id="html_3eed1929590784eadbfe35471c317b50" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75020</b><br>Prix Moyen/m² : 9,424 €<br>Nombre d'annonces: 1,523</div>`)[0];
+                popup_6ecc097cfda5bba7b63ce0b74f2932e5.setContent(html_3eed1929590784eadbfe35471c317b50);
+            
+        
+
+        circle_marker_beae2051e453feceaac91517155c7b4a.bindPopup(popup_6ecc097cfda5bba7b63ce0b74f2932e5)
+        ;
+
+        
+    
+    
+            var circle_marker_ba1994c875428e7cd7b813df8981cd86 = L.circleMarker(
+                [48.8534951, 2.3483915],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_7faadeff19518c80a58c8aa5c2dc51d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ecf8ca7aa75e711916d0f19bd728a283 = $(`<div id="html_ecf8ca7aa75e711916d0f19bd728a283" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75107</b><br>Prix Moyen/m² : 8,292 €<br>Nombre d'annonces: 2</div>`)[0];
+                popup_7faadeff19518c80a58c8aa5c2dc51d5.setContent(html_ecf8ca7aa75e711916d0f19bd728a283);
+            
+        
+
+        circle_marker_ba1994c875428e7cd7b813df8981cd86.bindPopup(popup_7faadeff19518c80a58c8aa5c2dc51d5)
+        ;
+
+        
+    
+    
+            var circle_marker_4dab6060274b1d9e41f0b1d2772c12d0 = L.circleMarker(
+                [48.8690634, 2.279847],
+                {"bubblingMouseEvents": true, "color": "#800080ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.773969430291801, "stroke": true, "weight": 1}
+            ).addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+        
+    
+        var popup_8910ea5f691bc6d8f18b6235627fc2e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9738f45c4033dc3faf6f15599756de5d = $(`<div id="html_9738f45c4033dc3faf6f15599756de5d" style="width: 100.0%; height: 100.0%;"><b style='font-size:14px'>Arrondissement : 75116</b><br>Prix Moyen/m² : 14,471 €<br>Nombre d'annonces: 385</div>`)[0];
+                popup_8910ea5f691bc6d8f18b6235627fc2e9.setContent(html_9738f45c4033dc3faf6f15599756de5d);
+            
+        
+
+        circle_marker_4dab6060274b1d9e41f0b1d2772c12d0.bindPopup(popup_8910ea5f691bc6d8f18b6235627fc2e9)
+        ;
+
+        
+    
+    
+    var color_map_574f40de47684fa2477726dde0377063 = {};
+
+    
+    color_map_574f40de47684fa2477726dde0377063.color = d3.scale.threshold()
+              .domain([5963.576, 5987.308067799316, 6011.0401355986305, 6034.772203397946, 6058.504271197262, 6082.236338996578, 6105.968406795892, 6129.700474595208, 6153.432542394524, 6177.164610193839, 6200.896677993154, 6224.62874579247, 6248.360813591786, 6272.0928813911005, 6295.824949190416, 6319.557016989732, 6343.289084789047, 6367.021152588362, 6390.753220387678, 6414.485288186994, 6438.217355986309, 6461.949423785624, 6485.68149158494, 6509.413559384255, 6533.1456271835705, 6556.877694982886, 6580.609762782202, 6604.341830581517, 6628.073898380832, 6651.805966180148, 6675.538033979464, 6699.270101778779, 6723.002169578094, 6746.73423737741, 6770.466305176726, 6794.19837297604, 6817.930440775356, 6841.662508574672, 6865.394576373987, 6889.126644173302, 6912.858711972618, 6936.590779771934, 6960.3228475712485, 6984.054915370564, 7007.78698316988, 7031.519050969195, 7055.25111876851, 7078.983186567826, 7102.715254367142, 7126.4473221664575, 7150.179389965772, 7173.911457765087, 7197.643525564403, 7221.3755933637185, 7245.107661163034, 7268.83972896235, 7292.571796761665, 7316.30386456098, 7340.035932360296, 7363.768000159611, 7387.500067958927, 7411.232135758242, 7434.964203557558, 7458.696271356873, 7482.4283391561885, 7506.160406955504, 7529.892474754819, 7553.624542554135, 7577.35661035345, 7601.088678152766, 7624.820745952081, 7648.552813751397, 7672.284881550712, 7696.016949350028, 7719.749017149343, 7743.4810849486585, 7767.213152747974, 7790.94522054729, 7814.677288346605, 7838.40935614592, 7862.141423945235, 7885.873491744551, 7909.605559543867, 7933.337627343182, 7957.069695142498, 7980.801762941813, 8004.533830741128, 8028.265898540443, 8051.997966339759, 8075.730034139075, 8099.46210193839, 8123.194169737706, 8146.926237537021, 8170.6583053363365, 8194.390373135651, 8218.122440934967, 8241.854508734283, 8265.586576533598, 8289.318644332914, 8313.05071213223, 8336.782779931546, 8360.514847730861, 8384.246915530175, 8407.97898332949, 8431.711051128807, 8455.443118928122, 8479.175186727438, 8502.907254526752, 8526.639322326067, 8550.371390125383, 8574.103457924699, 8597.835525724015, 8621.56759352333, 8645.299661322646, 8669.031729121962, 8692.763796921276, 8716.495864720591, 8740.227932519907, 8763.960000319223, 8787.692068118538, 8811.424135917854, 8835.156203717168, 8858.888271516484, 8882.6203393158, 8906.352407115115, 8930.08447491443, 8953.816542713746, 8977.548610513062, 9001.280678312378, 9025.012746111694, 9048.74481391101, 9072.476881710323, 9096.208949509639, 9119.941017308955, 9143.673085108268, 9167.405152907584, 9191.1372207069, 9214.869288506216, 9238.601356305531, 9262.333424104847, 9286.065491904163, 9309.797559703478, 9333.529627502794, 9357.26169530211, 9380.993763101424, 9404.72583090074, 9428.457898700055, 9452.18996649937, 9475.922034298686, 9499.654102098002, 9523.386169897316, 9547.118237696632, 9570.850305495947, 9594.582373295263, 9618.314441094579, 9642.046508893894, 9665.77857669321, 9689.510644492526, 9713.24271229184, 9736.974780091155, 9760.706847890471, 9784.438915689787, 9808.170983489103, 9831.903051288416, 9855.635119087732, 9879.367186887048, 9903.099254686364, 9926.83132248568, 9950.563390284995, 9974.29545808431, 9998.027525883626, 10021.759593682942, 10045.491661482256, 10069.223729281573, 10092.955797080887, 10116.687864880203, 10140.419932679519, 10164.152000478833, 10187.884068278148, 10211.616136077464, 10235.34820387678, 10259.080271676095, 10282.812339475411, 10306.544407274727, 10330.276475074043, 10354.008542873358, 10377.740610672674, 10401.472678471988, 10425.204746271304, 10448.93681407062, 10472.668881869933, 10496.40094966925, 10520.133017468565, 10543.86508526788, 10567.597153067196, 10591.329220866512, 10615.061288665827, 10638.793356465143, 10662.525424264459, 10686.257492063774, 10709.98955986309, 10733.721627662404, 10757.453695461722, 10781.185763261035, 10804.91783106035, 10828.649898859667, 10852.38196665898, 10876.114034458296, 10899.846102257612, 10923.578170056928, 10947.310237856243, 10971.04230565556, 10994.774373454875, 11018.50644125419, 11042.238509053506, 11065.970576852822, 11089.702644652136, 11113.434712451452, 11137.166780250767, 11160.898848050081, 11184.630915849397, 11208.362983648713, 11232.095051448028, 11255.827119247344, 11279.55918704666, 11303.291254845975, 11327.023322645291, 11350.755390444607, 11374.487458243922, 11398.219526043238, 11421.951593842552, 11445.68366164187, 11469.415729441183, 11493.147797240497, 11516.879865039815, 11540.611932839129, 11564.344000638444, 11588.07606843776, 11611.808136237076, 11635.540204036392, 11659.272271835707, 11683.004339635023, 11706.736407434339, 11730.468475233654, 11754.20054303297, 11777.932610832284, 11801.6646786316, 11825.396746430915, 11849.12881423023, 11872.860882029545, 11896.59294982886, 11920.325017628176, 11944.057085427492, 11967.789153226808, 11991.521221026123, 12015.253288825439, 12038.985356624755, 12062.71742442407, 12086.449492223386, 12110.1815600227, 12133.913627822018, 12157.645695621331, 12181.377763420645, 12205.109831219963, 12228.841899019277, 12252.573966818592, 12276.306034617908, 12300.038102417224, 12323.77017021654, 12347.502238015855, 12371.234305815171, 12394.966373614487, 12418.698441413802, 12442.430509213116, 12466.162577012432, 12489.894644811748, 12513.626712611063, 12537.358780410377, 12561.090848209693, 12584.822916009009, 12608.554983808324, 12632.28705160764, 12656.019119406956, 12679.751187206271, 12703.483255005587, 12727.215322804903, 12750.947390604219, 12774.679458403534, 12798.411526202848, 12822.143594002164, 12845.87566180148, 12869.607729600793, 12893.339797400111, 12917.071865199425, 12940.80393299874, 12964.536000798056, 12988.268068597372, 13012.000136396688, 13035.732204196003, 13059.464271995319, 13083.196339794633, 13106.92840759395, 13130.660475393264, 13154.39254319258, 13178.124610991896, 13201.85667879121, 13225.588746590525, 13249.320814389841, 13273.052882189157, 13296.784949988472, 13320.517017787788, 13344.249085587104, 13367.98115338642, 13391.713221185735, 13415.44528898505, 13439.177356784365, 13462.90942458368, 13486.641492382996, 13510.373560182312, 13534.105627981628, 13557.837695780941, 13581.569763580257, 13605.301831379573, 13629.033899178889, 13652.765966978204, 13676.49803477752, 13700.230102576836, 13723.962170376151, 13747.694238175467, 13771.426305974781, 13795.158373774098, 13818.890441573412, 13842.622509372726, 13866.354577172044, 13890.086644971358, 13913.818712770673, 13937.550780569989, 13961.282848369305, 13985.01491616862, 14008.746983967936, 14032.479051767252, 14056.211119566568, 14079.943187365883, 14103.675255165199, 14127.407322964513, 14151.139390763828, 14174.871458563146, 14198.603526362458, 14222.335594161774, 14246.06766196109, 14269.799729760405, 14293.53179755972, 14317.263865359037, 14340.995933158352, 14364.728000957668, 14388.460068756984, 14412.1921365563, 14435.924204355615, 14459.65627215493, 14483.388339954243, 14507.120407753562, 14530.852475552878, 14554.58454335219, 14578.316611151506, 14602.048678950821, 14625.780746750137, 14649.512814549453, 14673.244882348768, 14696.976950148084, 14720.7090179474, 14744.441085746716, 14768.173153546031, 14791.905221345347, 14815.637289144663, 14839.369356943975, 14863.10142474329, 14886.833492542606, 14910.565560341922, 14934.297628141238, 14958.029695940553, 14981.761763739869, 15005.493831539185, 15029.2258993385, 15052.957967137816, 15076.690034937132, 15100.422102736447, 15124.15417053576, 15147.886238335079, 15171.618306134395, 15195.350373933707, 15219.082441733022, 15242.814509532338, 15266.546577331657, 15290.27864513097, 15314.010712930285, 15337.7427807296, 15361.474848528916, 15385.206916328232, 15408.938984127548, 15432.671051926864, 15456.40311972618, 15480.135187525495, 15503.867255324807, 15527.599323124126, 15551.331390923442, 15575.063458722754, 15598.79552652207, 15622.527594321386, 15646.259662120701, 15669.991729920017, 15693.723797719333, 15717.455865518648, 15741.187933317964, 15764.92000111728, 15788.652068916595, 15812.384136715911, 15836.116204515227, 15859.848272314539, 15883.580340113855, 15907.312407913174, 15931.044475712486, 15954.776543511802, 15978.508611311117, 16002.240679110433, 16025.972746909749, 16049.704814709065, 16073.43688250838, 16097.168950307696, 16120.901018107012, 16144.633085906324, 16168.365153705643, 16192.097221504959, 16215.82928930427, 16239.561357103586, 16263.293424902902, 16287.025492702218, 16310.757560501534, 16334.48962830085, 16358.221696100165, 16381.95376389948, 16405.685831698796, 16429.417899498112, 16453.149967297428, 16476.882035096743, 16500.614102896056, 16524.34617069537, 16548.07823849469, 16571.810306294003, 16595.54237409332, 16619.274441892634, 16643.00650969195, 16666.738577491265, 16690.47064529058, 16714.202713089897, 16737.934780889213, 16761.66684868853, 16785.398916487844, 16809.13098428716, 16832.863052086475, 16856.59511988579, 16880.327187685103, 16904.05925548442, 16927.791323283738, 16951.52339108305, 16975.255458882366, 16998.98752668168, 17022.719594480997, 17046.451662280313, 17070.18373007963, 17093.915797878944, 17117.64786567826, 17141.379933477576, 17165.112001276888, 17188.844069076207, 17212.576136875523, 17236.308204674835, 17260.04027247415, 17283.772340273466, 17307.504408072782, 17331.236475872098, 17354.968543671413, 17378.70061147073, 17402.432679270045, 17426.16474706936, 17449.896814868676, 17473.628882667992, 17497.360950467308, 17521.09301826662, 17544.82508606594, 17568.557153865255, 17592.289221664567, 17616.021289463883, 17639.7533572632, 17663.485425062514, 17687.21749286183, 17710.949560661145, 17734.68162846046, 17758.413696259777, 17782.145764059092, 17805.877831858408])
+              .range(['#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#008000ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#0000ffff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#800080ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff', '#ff0000ff']);
+    
+
+    color_map_574f40de47684fa2477726dde0377063.x = d3.scale.linear()
+              .domain([5963.576, 17805.877831858408])
+              .range([0, 450 - 50]);
+
+    color_map_574f40de47684fa2477726dde0377063.legend = L.control({position: 'topright'});
+    color_map_574f40de47684fa2477726dde0377063.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_574f40de47684fa2477726dde0377063.legend.addTo(map_d02db2015caf8136ea01cf36460ccbf9);
+
+    color_map_574f40de47684fa2477726dde0377063.xAxis = d3.svg.axis()
+        .scale(color_map_574f40de47684fa2477726dde0377063.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([5963.576, 8332.036366371682, 10700.496732743362, 13068.957099115043, 15437.417465486727, 17805.877831858408]);
+
+    color_map_574f40de47684fa2477726dde0377063.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_574f40de47684fa2477726dde0377063.g = color_map_574f40de47684fa2477726dde0377063.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_574f40de47684fa2477726dde0377063.g.selectAll("rect")
+        .data(color_map_574f40de47684fa2477726dde0377063.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_574f40de47684fa2477726dde0377063.x(color_map_574f40de47684fa2477726dde0377063.color.domain()[i - 1]) : color_map_574f40de47684fa2477726dde0377063.x.range()[0],
+            x1: i < color_map_574f40de47684fa2477726dde0377063.color.domain().length ? color_map_574f40de47684fa2477726dde0377063.x(color_map_574f40de47684fa2477726dde0377063.color.domain()[i]) : color_map_574f40de47684fa2477726dde0377063.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_574f40de47684fa2477726dde0377063.g.call(color_map_574f40de47684fa2477726dde0377063.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("");
+</script>
+</html>
